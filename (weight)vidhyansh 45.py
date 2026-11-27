@@ -1,0 +1,5 @@
+Earth_gravity = float(input("Enter Earth gravity"))
+Moon_gravity = float(input("Enter Moon gravity"))
+mass = float(input("Enter mass of oblect"))
+print("Weight of Earth:", mass*Earth_gravity)
+print("Weiht of Moon:",mass*Moon_gravity)
